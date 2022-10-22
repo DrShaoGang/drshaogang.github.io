@@ -4,7 +4,7 @@ collection: teaching
 type: "Graduate course"
 permalink: /teaching/ILS595-Spring-2021
 # venue: "University 1, Department"
-date: 2021 Spring
+date: 2021-01-13
 location: "City, Country"
 ---
 
