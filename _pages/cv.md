@@ -9,12 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D., Forestry and Natural Resources, Purdue University, 2016
-* M.S., Forestry and Natural Resources, Purdue University, 2012
-* B.S., Biomedical Engineering, Northeastern University (CN), 2009
-
 Work experience
 ======
 * 2019 - present: Assistant Professor of Data Science
@@ -23,6 +17,11 @@ Work experience
 * 2017 - 2019: Research Associate
   * Forestry, Michigan State University
 
+Education
+======
+* Ph.D., Forestry and Natural Resources, Purdue University, 2016
+* M.S., Forestry and Natural Resources, Purdue University, 2012
+* B.S., Biomedical Engineering, Northeastern University (CN), 2009
   
 Honors and Awards
 ======
