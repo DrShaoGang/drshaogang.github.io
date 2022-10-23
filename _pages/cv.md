@@ -33,7 +33,7 @@ Honors and Awards
 Service and leadership
 ======
 * Faculty Lead in Departmental Research Data Management Research
-* Mentor for D-VELoP Lab Graduate Assistant
+* Mentor for D-VELoP Lab Graduate Assistants
 * Liasion in Statistics, Agriculture and Biological Engineering, Forestry and Natrual Resources
 
 Teaching
