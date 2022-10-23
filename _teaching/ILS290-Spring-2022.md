@@ -11,4 +11,4 @@ location: "On Campus"
 Undergraduate research projects supported by [Purdue Libraries and School of Information Studies](https://www.lib.purdue.edu/our-awards),
 [Office of Undergraduate Research(OUR)](https://www.purdue.edu/undergrad-research/students/OUR-Scholars.php), 
 and [Honor College](https://honors.purdue.edu/current-students/Undergraduate-Research/Scholarly%20Project.php).
-Contact [me](gshao@purdue.edu) for more information
+Contact [me](mailto:gshao@purdue.edu?subject=[GitHub]%20Independent%20Study%20for%20Undergraduate%20Research) for more information
