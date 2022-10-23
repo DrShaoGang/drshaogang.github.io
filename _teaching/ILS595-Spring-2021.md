@@ -1,5 +1,5 @@
 ---
-title: "ILS59500 Geospatial Programming and Data Science"
+title: "ILS59500 Geospatial Programming and Data Science (Spring 2021)"
 collection: teaching
 type: "Graduate course"
 permalink: /teaching/ILS595-Spring-2021
