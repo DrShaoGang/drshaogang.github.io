@@ -9,12 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D., Forestry and Natural Resources, Purdue University, 2016
-* M.S., Forestry and Natural Resources, Purdue University, 2012
-* B.S., Biomedical Engineering, Northeastern University (CN), 2009
-
 Work experience
 ======
 * 2019 - present: Assistant Professor of Data Science
@@ -23,6 +17,11 @@ Work experience
 * 2017 - 2019: Research Associate
   * Forestry, Michigan State University
 
+Education
+======
+* Ph.D., Forestry and Natural Resources, Purdue University, 2016
+* M.S., Forestry and Natural Resources, Purdue University, 2012
+* B.S., Biomedical Engineering, Northeastern University (CN), 2009
   
 Honors and Awards
 ======
@@ -32,26 +31,25 @@ Honors and Awards
 
 Service and leadership
 ======
-* Faculty Lead in Departmental Research Data Management Research
-* Mentor for D-VELoP Lab Graduate Assistants
+* Faculty Lead in Research Data
 * Liasion in Statistics, Agriculture and Biological Engineering, Forestry and Natrual Resources
 
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
+  <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.publications reversed  %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 Talks
 ======
-  <ul>{% for post in site.talks %}
+  <ul>{% for post in site.talks reversed  %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
