@@ -1,5 +1,5 @@
 ---
-title: "ILS69500 Computational Text Analysis (every spring)"
+title: "ILS69500 Computational Text Analysis (Every Spring)"
 collection: teaching
 type: "Graduate course"
 permalink: /teaching/ILS695-Spring-2022
