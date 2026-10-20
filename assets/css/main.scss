@@ -39,3 +39,36 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* Grant projects page */
+.grant-intro { max-width: 48rem; margin-bottom: 1.25rem; color: #56616b; font-size: 1.05em; }
+.grant-jump { display: flex; flex-wrap: wrap; gap: 0.55rem; margin: 0 0 2rem; }
+.grant-jump a { padding: 0.42rem 0.78rem; border: 1px solid #d9e0e6; border-radius: 999px; color: #3d4b57; font-size: 0.78em; font-weight: 700; text-decoration: none; }
+.grant-jump a:hover { border-color: #2d6a8a; color: #2d6a8a; }
+.grant-section { margin: 2.25rem 0 3rem; }
+.grant-section__heading { margin-bottom: 1.4rem; padding: 1rem 1.2rem; border-left: 5px solid #2d6a8a; background: linear-gradient(90deg, #eef7fb, rgba(238, 247, 251, 0)); }
+.grant-section__heading--internal { border-left-color: #8a5a2d; background: linear-gradient(90deg, #fbf5ee, rgba(251, 245, 238, 0)); }
+.grant-section__heading h2, .grant-category, .grant-card h4 { margin-top: 0; }
+.grant-section__heading h2 { margin-bottom: 0; }
+.grant-eyebrow { margin: 0 0 0.2rem; color: #65717b; font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; }
+.grant-category { margin: 2rem 0 1rem; color: #3f4a53; font-size: 1.05em; }
+.grant-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.grant-card { display: flex; flex-direction: column; min-width: 0; padding: 1.1rem; border: 1px solid #dce3e8; border-top: 4px solid #2d6a8a; border-radius: 0.45rem; background: #fff; box-shadow: 0 0.18rem 0.65rem rgba(31, 45, 56, 0.07); }
+.grant-card--personnel { border-top-color: #596b7a; }
+.grant-card--internal { border-top-color: #8a5a2d; }
+.grant-card__top { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; margin-bottom: 0.8rem; }
+.grant-badge { padding: 0.18rem 0.5rem; border-radius: 999px; background: #e7f1f6; color: #245d79; font-size: 0.68em; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase; }
+.grant-card--personnel .grant-badge { background: #edf0f2; color: #485964; }
+.grant-card--internal .grant-badge { background: #f5eadf; color: #74471f; }
+.grant-year { color: #69757e; font-size: 0.75em; font-weight: 700; }
+.grant-card h4 { margin-bottom: 0.5rem; font-size: 0.98em; line-height: 1.35; }
+.grant-title { flex-grow: 1; margin: 0 0 1rem; color: #3e4951; font-size: 0.88em; font-style: italic; line-height: 1.5; }
+.grant-card dl { margin: 0; padding-top: 0.75rem; border-top: 1px solid #e7ebee; font-size: 0.78em; }
+.grant-card dl div { display: grid; grid-template-columns: 5.7rem 1fr; gap: 0.5rem; margin-top: 0.36rem; }
+.grant-card dt { color: #6b747c; font-weight: 600; }
+.grant-card dd { margin: 0; color: #26343e; font-weight: 600; }
+
+@media (max-width: 760px) {
+  .grant-grid { grid-template-columns: 1fr; }
+  .grant-card dl div { grid-template-columns: 5rem 1fr; }
+}
