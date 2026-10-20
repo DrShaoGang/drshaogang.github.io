@@ -11,10 +11,16 @@ redirect_from:
 
 Work experience
 ======
-* 2019 - present: Assistant Professor of Data Science
+
+### Academic positions
+
+* **2024–Present:** Associate Professor, Data Science Specialist
+  * Libraries and School of Information Studies, Purdue University
+
+* **2019–2024:** Assistant Professor, Data Science Specialist
   * Libraries and School of Information Studies, Purdue University
   
-* 2017 - 2019: Research Associate
+* **2017–2019:** Research Associate
   * Forestry, Michigan State University
 
 Education
