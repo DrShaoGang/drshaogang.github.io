@@ -240,3 +240,35 @@
   .publication-year { position: static; margin: 0 0 0.65rem; }
   .publication-year-group::before { display: none; }
 }
+
+/* Teaching page */
+.teaching-intro { margin-bottom: 2.25rem; padding: 1.1rem 1.25rem; border-left: 5px solid #2d6a8a; background: linear-gradient(90deg, #eef7fb, rgba(238, 247, 251, 0.2)); }
+.teaching-intro p { margin: 0; color: #43515c; line-height: 1.5; }
+.teaching-intro .teaching-eyebrow { margin-bottom: 0.2rem; color: #2d6a8a; font-size: 0.7em; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; }
+.teaching-section { margin: 0 0 2.75rem; }
+.teaching-section__heading { display: flex; align-items: baseline; gap: 0.7rem; margin-bottom: 1rem; padding-bottom: 0.55rem; border-bottom: 2px solid #d8e6ed; }
+.teaching-section__heading--independent { border-bottom-color: #e5dccd; }
+.teaching-section__heading--past { border-bottom-color: #e1e4e6; }
+.teaching-section__heading h2 { margin: 0; font-size: 1.2em; }
+.teaching-section__marker { color: #2d6a8a; font-size: 0.68em; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+.teaching-section__heading--independent .teaching-section__marker { color: #8a5a2d; }
+.teaching-section__heading--past .teaching-section__marker { color: #66747e; }
+.teaching-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.9rem; }
+.teaching-card { padding: 1rem 1.05rem; border: 1px solid #dce3e8; border-top: 4px solid #2d6a8a; border-radius: 0.45rem; background: #fff; box-shadow: 0 0.16rem 0.55rem rgba(31, 45, 56, 0.06); }
+.teaching-card--independent { border-top-color: #8a5a2d; }
+.teaching-card--past { border-top-color: #7b878f; }
+.teaching-card__top { display: flex; align-items: center; justify-content: space-between; gap: 0.65rem; margin-bottom: 0.65rem; }
+.teaching-card__course { color: #2d6a8a; font-size: 0.74em; font-weight: 800; letter-spacing: 0.04em; }
+.teaching-card--independent .teaching-card__course { color: #8a5a2d; }
+.teaching-card--past .teaching-card__course { color: #5f6c75; }
+.teaching-card__type { color: #78828a; font-size: 0.66em; }
+.teaching-card h3 { margin: 0 0 0.55rem; font-size: 0.95em; line-height: 1.4; }
+.teaching-card h3 a { color: #263640; text-decoration: none; }
+.teaching-card h3 a:hover { color: #2d6a8a; }
+.teaching-card__program { margin: 0 0 0.6rem; color: #5d6870; font-size: 0.74em; line-height: 1.45; }
+.teaching-card__term { color: #65717a; font-size: 0.72em; font-weight: 600; }
+
+@media (max-width: 680px) {
+  .teaching-grid { grid-template-columns: 1fr; }
+  .teaching-section__heading { align-items: flex-start; flex-direction: column; gap: 0.2rem; }
+}

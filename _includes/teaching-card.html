@@ -1,0 +1,9 @@
+<article class="teaching-card teaching-card--{{ post.status }}">
+  <div class="teaching-card__top">
+    <span class="teaching-card__course">{{ post.course }}</span>
+    <span class="teaching-card__type">{{ post.type }}</span>
+  </div>
+  <h3><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h3>
+  {% if post.program %}<p class="teaching-card__program">{{ post.program }}</p>{% endif %}
+  <div class="teaching-card__term"><span aria-hidden="true">◷</span> {{ post.term }}</div>
+</article>
