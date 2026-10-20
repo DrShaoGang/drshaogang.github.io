@@ -31,6 +31,10 @@ Education
   
 Honors and Awards
 ======
+* John H. Moriarty Award for Excellence in Library Service, 2025, Purdue University
+* Seed for Success Acorn Award, 2023, Purdue University
+  * For principal investigators who obtained an external sponsored award of $1 million or more
+* Libraries Research Award, 2023, Purdue University
 * Honor College Faculty-Led Research 2022
 * Joanne J. Troutner Innovative Educators Award, 2021
 * IDEA institute on AI, IMLS Fellow 2021
